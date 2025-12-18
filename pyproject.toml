@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project]
+name = "pymcprotocol_fxseries"
+version = "0.1.0"
+description = "Python library for FX-series PLC via 1E frame MC protocol."
+readme = "README.md"
+authors = [{ name = "FluxEngine-dev" }]
+license = { file = "LICENSE" }
+dependencies = []
+requires-python = ">=3.10"
