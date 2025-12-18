@@ -203,7 +203,7 @@ class Type1E(SockBase):
       self.commtype = const.CommType.BINARY
       self.wordsize = 2
     elif commtype == "ascii":
-      raise ValueError(""ascii"による通信は、まだ、未搭載です。")
+      raise ValueError("\"ascii\"による通信は、まだ、未搭載です。")
       
       self.commtype = const.CommType.ASCII
       self.wordsize = 4
