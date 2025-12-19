@@ -1,4 +1,4 @@
-# flux-pymcprotocol_fxseries
+# pymcprotocol_fxseries
 
 三菱電機 PLC **FX シリーズ（1E フレーム）** 用の Python 通信ライブラリです。
 既存の `pymcprotocol`（3E/4E フレーム専用）では対応できない FX シリーズ等との通信を、1E フレーム専用に設計することで実現しています。
